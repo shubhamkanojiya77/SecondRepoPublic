@@ -1,0 +1,32 @@
+{
+
+	"dashboard": {
+	"purchaseAmount": 115,
+	"website": "demotesting.com"
+	},
+
+	"courses": [
+		{
+			"title": "Selenium Java",
+			"price": 45,
+			"copies": 7
+		},
+
+		{
+			"title": "Playwrit",
+			"price": 30,
+			"copies": 5
+		},
+
+		{
+			"title": "RestAssured",
+			"price": 65,
+			"copies": 10
+		},
+		{
+			"title": "Cypress",
+			"price": 35,
+			"copies": 8
+		}
+	]
+}

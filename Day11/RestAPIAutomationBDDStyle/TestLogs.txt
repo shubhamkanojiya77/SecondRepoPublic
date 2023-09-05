@@ -1,0 +1,185 @@
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 4bd56fdc8137b99b957938010a2b0a0cfcbdd5099e32f9aa8adf5b3c6ea4d8f8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "John Smith",
+    "gender": "male",
+    "email": "john.smith11@15ce.com",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Feb 2023 16:41:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"527a88dcc10b1a6cd506f9c4bca17aaf"
+location: https://gorest.co.in/public/v2/users/444912
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 88f46552-21f0-43ec-b9a2-72c478580074
+x-runtime: 0.142114
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SwZb7zxjPBdFT8d4GJghH%2BgstCxVQ8qldWxJ2NmXsV7M0Op%2BurZwLXHq3idSwiS%2FMiDDym8yaDA1AKV6R5taqd1Iu2imPKq4oqji4J9ha35Wd8wlc9zBkBX0KuXwpnI%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79aff8271b75f3f5-BOM
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 444912,
+    "name": "John Smith",
+    "email": "john.smith11@15ce.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/444912
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userID=444912
+Headers:		Authorization=Bearer 4bd56fdc8137b99b957938010a2b0a0cfcbdd5099e32f9aa8adf5b3c6ea4d8f8
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 17 Feb 2023 16:41:15 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"527a88dcc10b1a6cd506f9c4bca17aaf"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 7dc89f78-ecf8-4134-8265-ec7669124ac4
+x-runtime: 0.095520
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ENdOUoZkxySmIP2KIzJJf2T%2Fbho3dSUl%2FfOkvx2F7f0KjWeOjOUmjcIj8SnPCCZIwgKsyLDextcjYUpetjR42jqRk96%2B7SgvgEXSzMKh5adV0DHFLHBpexhQGP%2BSrOk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79aff82f88552965-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 444912,
+    "name": "John Smith",
+    "email": "john.smith11@15ce.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	PUT
+Request URI:	https://gorest.co.in/public/v2/users/444912
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userID=444912
+Headers:		Authorization=Bearer 4bd56fdc8137b99b957938010a2b0a0cfcbdd5099e32f9aa8adf5b3c6ea4d8f8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "John Abraham",
+    "email": "john.ab1@15ce.com",
+    "status": "active"
+}
+HTTP/1.1 200 OK
+Date: Fri, 17 Feb 2023 16:41:16 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"c70afe28b221c54be1408fb6adb138bc"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 2
+x-request-id: 0b37f1b4-1e45-4a82-8d2b-1a7fa7954e97
+x-runtime: 0.100659
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UWilEp2ch%2FMWONZL4in7%2FkZ%2FUZo%2FQevNdSOUFqaj0w%2FI5MGsOqcSkJnjujx5hyAuHQqUIZ49M%2Fw9c3SCQFB6UGZucJYGr5E2GBbuHU80JhzgfdDoxQYrAcKuPTqCim4%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79aff8335fe3f4b0-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "email": "john.ab1@15ce.com",
+    "name": "John Abraham",
+    "status": "active",
+    "id": 444912,
+    "gender": "male"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/444912
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userID=444912
+Headers:		Authorization=Bearer 4bd56fdc8137b99b957938010a2b0a0cfcbdd5099e32f9aa8adf5b3c6ea4d8f8
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Feb 2023 16:41:16 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: f51186ee-0779-40f2-9bde-f396f04f9a44
+x-runtime: 0.115667
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPCogFCmORGWjhprGsELe9jw37HM5ruaJ0dHKoPdzJkn3Gym%2F%2FlSTm4J0opLWV0UDb%2BsKmkWddqJcPR%2BRUxh8ZpbkWZQhA6qmB1K31Q121PVFpJyGp4xiLrUeTv0g1Y%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79aff836a8c131f3-BOM
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

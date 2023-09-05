@@ -1,0 +1,28 @@
+Serialization & Deserialization (It is recommended to use if json payload is complex)
+
+Serialization : It is process of converting pojo class object into json payload
+
+Deserialization : It is process of converting json payload into pojo class object
+
+pojo --> plain old java object
+
+For Serialization & Deserialization we should add below tools in our project
+
+	jackson databind
+	jackson annotation
+	jackson core 
+	Gson
+	
+	
+Tools for API Automation framework
+	Java 1.8
+1. Maven
+2. JUnit
+3. RestAssured
+4. Eclipse IDE
+5. Jackson databind
+6. Jackson annotation
+7. Jackson core
+8. Gson
+9. Extent report cucumber adapter
+10. Cucumber Java
